@@ -1,0 +1,35 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+html {
+  overflow-x: hidden;
+}
+.container-fluid {
+  margin-top: 45px;
+}
+
+.row.text-center {
+background-color: lightsteelblue;
+border: none;
+border-radius: 10px;
+border-image: linear-gradient(to right, gray, transparent) 1 100%;
+}
+
+.col-md-4 {
+margin-top: 210px;
+}
+
+.bg-lightgrey {
+  background-color: lightgrey;
+}
+
